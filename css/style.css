@@ -59,6 +59,10 @@ a:active {
 #getintouch {
   color: #9AABA8;
 }
+#myblurb2 {
+  color: #9A9BAB;
+  font-size: 1.25em;
+}
 .button {
   display: inline-block;
   background-color: #969B9E;
