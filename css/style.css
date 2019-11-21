@@ -1,4 +1,86 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+/*
+#9A9BAB
+(154,155,171)
+#A3A9B5
+(163,169,181)
+#969B9E
+(150,155,158)
+#A3B3B5
+(163,179,181)
+#9AABA8
+(154,171,168)
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.25em;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #969B9E;
+  text-decoration: underline;
+}
+a:visited {
+  color: #969B9E;
+}
+a:hover,
+a:focus {
+  color: #0000EE;
+  text-decoration: none;
+}
+a:active {
+  color: #EE0000 ;
+}
+.button {
+  display: inline-block;
+  background-color: #969B9E;
+  color: #ffffff !important;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #9A9BAB;
+  transition: 0.2s opacity;
+}
+.button:hover,
+.button:focus {
+  opacity: 0.5;
+  color: #0000EE !important;
+  text-decoration: none;
+}
+.button:active {
+  color: #EE0000 !important;
+}
+.button.contact {
+  background-color: transparent;
+  color: #969B9E !important;
+  text-transform: uppercase;
+  border: 2px solid #969B9E;
+}
+.button.contact:hover,
+.button.contact:focus {
+  opacity: 0.5;
+  background-color: #969B9E !important;
+  color: #0000EE !important;
+  text-decoration: none;
+}
+.button.contact:active {
+  color: #EE0000 !important;
+}
