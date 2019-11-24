@@ -26,11 +26,10 @@ header {
   background-color: #A3A9B5;
   text-align: center;
   padding: 10px 0;
-  margin: 10px;
-  border-bottom: 3px solid #ffffff;
+  box-shadow: 19px -2px 19px 0px rgba(49, 47, 72, 0.83);
   position: fixed;
+  display: inline-block;
   width: 100%;
-  box-shadow: 29px 16px 18px rgba(163, 169, 181, 0.94);
 }
 
 h1, h2, h3 {
@@ -82,6 +81,7 @@ a:active {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 #contact {
@@ -137,6 +137,7 @@ a:active {
 .container {
   padding: 0 15px;
   width: 100%;
+  max-width: 1200px;
 }
 
 .row {
@@ -159,10 +160,32 @@ a:active {
   text-align: center;
 }
 
+#contact p {
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#contact ul li {
+  display: inline-block;
+  padding: 0 15px;
+  margin: 25px 0;
+}
+
 .center {
   text-align: center;
 }
 
+.logo {
+  max-width: 250px;
+}
 
 nav {
   display: inline-block;
@@ -199,5 +222,5 @@ nav > ul > li > a:active {
 }
 
 main {
-  padding-top: 345px;
+  padding-top: 102.06px;
 }
