@@ -9,6 +9,13 @@
 (163,179,181)
 #9AABA8
 (154,171,168)
+#72777B
+(114,119,123)
+#74758B
+
+#6E7789
+
+#859996
 */
 * {
   box-sizing: border-box;
@@ -19,7 +26,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
-  color: #9A9BAB
+  color: #74758B
 }
 
 header {
@@ -34,7 +41,7 @@ header {
 }
 
 h1, h2, h3 {
-  color: #9A9BAB;
+  color: #74758B;
   line-height: 1.4;
 }
 
@@ -56,16 +63,16 @@ h3 {
 }
 
 img {
-  width: 100%;
+  width: 50%;
 }
 
 a {
-  color: #969B9E;
+  color: #74758B;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #969B9E;
+  color: #74758B;
 }
 
 a:hover,
@@ -80,72 +87,74 @@ a:active {
 
 header h1 {
   font-size: 1.25em;
-  color: #9AABA8;
+  color: #859996;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 15px;
+  float: left;
 }
 
 #hero {
   font-size: 0.5em;
-  background-color: #A3A9B5;
+  background-color: #6E7789;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
 #contact {
-  color: #9AABA8;
+  color: #74758B;
 }
 
 #work {
-  color: #9A9BAB;
+  color: #74758B;
 }
 
 .button {
   display: inline-block;
-  background-color: #969B9E;
+  background-color: #72777B;
   color: #ffffff !important;
   font-weight: 300;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #9A9BAB;
-  transition-duration: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
   opacity: 0.8;
-  background-color: #A3A9B5;
+  background-color: #72777B;
   font-size: 20px;
 }
 
 .button:focus {
-  opacity: 0.5;
-  color: #0000EE !important;
+  opacity: 0.8;
+  color: #FFFFFF !important;
   text-decoration: none;
 }
 
 .button:active {
-  color: #EE0000 !important;
+  color: #140000 !important;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #969B9E !important;
+  color: #74758B !important;
   text-transform: uppercase;
   border: 2px solid #969B9E;
 }
 
 .button.contact:hover,
 .button.contact:focus {
-  opacity: 0.5;
-  background-color: #969B9E !important;
-  color: #0000EE !important;
+  opacity: 0.8;
+  background-color: #72777B !important;
+  color: #FFFFFF !important;
   text-decoration: none;
 }
 
 .button.contact:active {
-  color: #EE0000 !important;
+  color: #140000 !important;
 }
 
 /* Layout Styling */
@@ -208,18 +217,19 @@ header h1 {
 nav>ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 5px;
+  float: right;
 }
 
 nav>ul>li>a {
   padding: 0 12px;
   text-transform: uppercase;
   font-weight: 700;
-  color: ##9A9BAB;
+  color: #74758B;
 }
 
 nav>ul>li>a:visited {
-  color: #9A9BAB;
+  color: #74758B;
 }
 
 nav>ul>li>a:hover {
@@ -240,7 +250,7 @@ nav>ul>li>a:active {
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 20px 0 0;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -250,13 +260,14 @@ nav>ul>li>a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 15px;
   font-size: 20px;
   padding-right: 0;
 }
 
 .navtoggle.responsive li {
   display: block;
+  font-size: 5px;
   padding: 10px 0;
   border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
