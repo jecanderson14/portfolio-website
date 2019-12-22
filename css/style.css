@@ -23,7 +23,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
-  color: #74758B
+  color: #74758b;
 }
 
 header {
@@ -31,14 +31,16 @@ header {
   height: 99px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 0;
-  box-shadow: 19px -2px 19px 0px rgba(49, 47, 72, 0.83);
+  box-shadow: 19px -2px 19px 1px rgba(49, 47, 72, 0.83);
   position: fixed;
   top: 0;
   left: 0;
 }
 
-h1, h2, h3 {
-  color: #74758B;
+h1,
+h2,
+h3 {
+  color: #74758b;
   line-height: 1.4;
 }
 
@@ -64,22 +66,22 @@ img {
 }
 
 a {
-  color: #74758B;
+  color: #74758b;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #74758B;
+  color: #74758b;
 }
 
 a:hover,
 a:focus {
-  color: #0000EE;
+  color: #0000ee;
   text-decoration: none;
 }
 
 a:active {
-  color: #EE0000;
+  color: #ee0000;
 }
 
 header h1 {
@@ -93,41 +95,41 @@ header h1 {
 
 #hero {
   font-size: 0.5em;
-  background-color: #6E7789;
+  background-color: #6e7789;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
 #contact {
-  color: #74758B;
+  color: #74758b;
 }
 
 #work {
-  color: #74758B;
+  color: #74758b;
 }
 
 .button {
   display: inline-block;
-  background-color: #72777B;
+  background-color: #72777b;
   color: #ffffff !important;
   font-weight: 300;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #9A9BAB;
+  border-bottom: 2px solid #9a9bab;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
 
 .button:hover {
   opacity: 0.8;
-  background-color: #72777B;
+  background-color: #72777b;
   font-size: 20px;
 }
 
 .button:focus {
   opacity: 0.8;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -137,16 +139,16 @@ header h1 {
 
 .button.contact {
   background-color: transparent;
-  color: #74758B !important;
+  color: #74758b !important;
   text-transform: uppercase;
-  border: 2px solid #969B9E;
+  border: 2px solid #969b9e;
 }
 
 .button.contact:hover,
 .button.contact:focus {
   opacity: 0.8;
-  background-color: #72777B !important;
-  color: #FFFFFF !important;
+  background-color: #72777b !important;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -167,7 +169,7 @@ header h1 {
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #9A9BAB;
+  border-bottom: 1px solid #9a9bab;
 }
 
 #hero h1 {
@@ -181,7 +183,7 @@ header h1 {
   color: #ffffff;
   line-height: 1.4;
   font-weight: 500;
-  font-size: 2.0em;
+  font-size: 2em;
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -211,31 +213,31 @@ header h1 {
   margin: 25px 0;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 5px;
   float: right;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 12px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #74758B;
+  color: #74758b;
 }
 
-nav>ul>li>a:visited {
-  color: #74758B;
+nav > ul > li > a:visited {
+  color: #74758b;
 }
 
-nav>ul>li>a:hover {
-  color: #0000EE;
+nav > ul > li > a:hover {
+  color: #0000ee;
   text-decoration: none;
 }
 
-nav>ul>li>a:active {
-  color: #EE0000;
+nav > ul > li > a:active {
+  color: #ee0000;
 }
 
 .navtoggle li:not(:last-child) {
@@ -250,7 +252,8 @@ nav>ul>li>a:active {
   padding: 20px 0 0;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -338,11 +341,11 @@ main {
     float: right;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -385,5 +388,3 @@ main {
     margin-right: auto;
   }
 }
-
-@media only screen and (min-width: 1440px) {}
